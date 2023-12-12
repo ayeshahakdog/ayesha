@@ -78,7 +78,7 @@ logo = ("""
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA                       ┃
  ┃ [\033[1;91m✓\033[1;92m] GITHUB    \033[1;91m: \033[1;92mAYESHAHAKDOG               ┃
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mAYESHA                     ┃
- ┃ [\033[1;91m✓\033[1;92m] Version.  \033[1;91m: \033[1;92m0.01                       ┃
+ ┃ [\033[1;91m✓\033[1;92m] Version.  \033[1;91m: \033[1;92m0.2                       ┃
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 
 def linex():
@@ -382,7 +382,7 @@ def api1(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         print(f'\r\r\033[1;32m [AYESHAREY-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/INNOCENT-XD-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/AYESHAREY-XD-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
