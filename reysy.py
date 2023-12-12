@@ -481,9 +481,9 @@ def gml():
                 pcp=[]
                 clear()
                 pcp.append(f'y')
-                print('\033[1;32m Name  example:  Shahin, Sabbir, Forhad ')
+                print('\033[1;32m Name  example:  First, Last, Firstlast ')
                 code = input(' First name : ')
-                print(' Name Example : Alam, hossen, hossain')
+                print(' Name Example : first, last, firstlast')
                 codex = input(' Last name : ')
                 try:
                         limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
